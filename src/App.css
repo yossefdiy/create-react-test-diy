@@ -1,32 +1,90 @@
-.App {
+.Home{
+  background-color:gray;
+  font-size: 50px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+header{
+  font-size: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+div{
+text-align: center;
+color: burlywood;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  font-size: 16px;
+  color: aqua;
+}
+.grid-container {
+  position:center;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  background-color:black;
+  padding: 10px;
+}
+.grid-item1 {
+ 
+  background-color: rgba(207, 187, 187, 0.8);
+  border: 1px solid rgba(41, 35, 35, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item2 {
+  background-color: rgba(95, 79, 79, 0.8);
+  border: 1px solid rgba(241, 231, 231, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(241, 231, 231, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}.grid-item4 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(241, 231, 231, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}.grid-item5 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(241, 231, 231, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}.grid-item6 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(241, 231, 231, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}.grid-item7 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(241, 231, 231, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}.grid-item8 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(241, 231, 231, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}.grid-item9 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(241, 231, 231, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.div:hover{
+  background-color:black;
+  color: cyan;
 }
