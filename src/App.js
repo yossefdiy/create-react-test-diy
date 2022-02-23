@@ -23,8 +23,8 @@ const App  =()=>{
 
   <div>
 
-    <Link to ="/game" >home </Link>
-    <Link to="/" >game</Link>
+    <Link to ="/game" >THE GAME BOARD </Link>
+    <Link to="/" >LOGIN</Link>
     <Routes>
     <Route path="/"element={<Game/>}/>
     <Route path="/game"element={<Home/>}/>
