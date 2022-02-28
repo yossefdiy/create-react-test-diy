@@ -9,15 +9,6 @@ import "./App.css" ;
    const [count,setCount]= useState(0)
    const [click,setClick]= useState(' ')
   
-   function DisableAfterClick() {
-    const [disable, setDisable] = useState(false);
-     setCount('O')
-    return (
-      <button disabled={disable} onClick={() => setDisable(true)}>
-        Click to Disable!
-      </button>
-    );
-  }
 
 
  
