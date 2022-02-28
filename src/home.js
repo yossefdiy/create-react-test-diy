@@ -24,7 +24,7 @@ import "./App.css" ;
      clock()
      
      }
-     {DisableAfterClick()}
+    
     if (count===1)
   
      setClick('O')
