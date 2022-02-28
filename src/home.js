@@ -363,7 +363,7 @@ import "./App.css" ;
 
 
     <div className='Home'>
-    <h1>TIC TAC TOE</h1>
+    <h1>TIC TAC TOES</h1>
 <div className="grid-container">
   
   <button id='b1' onClick={Habdelclick}>{click}</button> 
