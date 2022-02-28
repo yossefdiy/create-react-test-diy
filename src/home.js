@@ -1,7 +1,6 @@
-
-
 import React,{useState} from 'react';
 import "./App.css" ;
+
 
 
 
@@ -10,20 +9,38 @@ import "./App.css" ;
    const [count,setCount]= useState(0)
    const [click,setClick]= useState(' ')
   
+   function DisableAfterClick() {
+    const [disable, setDisable] = useState(false);
+     setCount('O')
+    return (
+      <button disabled={disable} onClick={() => setDisable(true)}>
+        Click to Disable!
+      </button>
+    );
+  }
+
+
+ 
+
+
    
-
-
-
    const Habdelclick=()=>{
-     if (click) 
+     
+
+     if (click) {
      setClick('x')
+    
      clock()
      
-     
-     if (count===1)
+     }
+     {DisableAfterClick()}
+    if (count===1)
+  
      setClick('O')
+    
      if(click  &&  count===2)
      setClick('x')
+    
      if(click && count===3 )
      setClick('O')
      if (click && count===4)
@@ -43,7 +60,10 @@ import "./App.css" ;
    const Habdelclick2=()=>{
     if (click2) 
     setClick2('x')
+    
     clock()
+    
+    
     if (count===1)
     setClick2('O')
     if(click2  &&  count===2)
@@ -68,6 +88,8 @@ import "./App.css" ;
     if (click3) 
     setClick3('x')
     clock()
+    
+
     if (count===1)
     setClick3('O')
     if(click3  &&  count===2)
@@ -92,6 +114,8 @@ import "./App.css" ;
     if (click4) 
     setClick4('x')
     clock()
+    
+
     if (count===1)
     setClick4('O')
     if(click4  &&  count===2)
@@ -332,7 +356,6 @@ import "./App.css" ;
     
     
  
-   
 
   
   return (
@@ -342,7 +365,11 @@ import "./App.css" ;
     <div className='Home'>
     <h1>TIC TAC TOE</h1>
 <div className="grid-container">
-  <button onClick={Habdelclick} >{click}</button> 
+  
+  <button id='b1' onClick={Habdelclick}>{click}</button> 
+    
+
+
   <button onClick={Habdelclick2} >{click2}</button>
   <button onClick={Habdelclick3} >{click3}</button>  
   <button onClick={Habdelclick4} >{click4}</button>
@@ -351,9 +378,14 @@ import "./App.css" ;
   <button onClick={Habdelclick7} >{click7}</button>
   <button onClick={Habdelclick8} >{click8}</button>
   <button onClick={Habdelclick9} >{click9}</button>  
-  
-  
-</div>
+
+
+      
+    </div>
+  );
+
+    
+
 
 </div>
 

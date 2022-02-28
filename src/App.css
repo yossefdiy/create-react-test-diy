@@ -1,20 +1,29 @@
 
 
+
+
 header{
   font-size: 30px;
 }
 .Home{
+  background-image:url('C:\Users\הכוח לתת\create-react-test-diy\src\images\XO-1.png');
+  background-repeat: repeat-y;
+
   text-align: center;
+
 }
 
 .grid-container {
-  margin: 0 auto;
 
-  width: 400px;
-  height: 400px;
+
+
+  margin: 0 auto;
+  padding: 150px;
+
+  width: 1000px;
+  height: 1000px;
   display: grid;
   grid-template-columns: 30% 30% 30%;
-  background-color:rgb(208, 208, 208);
 
 }
 p{
@@ -27,4 +36,7 @@ div{
 }
 button{
   align-items:center;
+  opacity: 1;;
+  
+font-size: 30px;
 }
